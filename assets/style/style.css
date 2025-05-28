@@ -1,0 +1,53 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #0f0b4e;
+  overflow: hidden;
+}
+
+.course-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+  padding: 100px;
+  font-weight: bold;
+
+} 
+.container {
+  text-align: center;
+  position: relative;
+}
+.wrapper{
+  display: inline-block;
+  border-radius:2px ;
+  color: white;
+  background-color: #95076b;
+  min-width: 150px;
+  min-height: 150px;
+  padding: 10px;
+  position: relative;
+  font-size: 40px;
+  font-family:monospace;
+  margin: 0px 6px;
+}
+.wrapper .count{
+  position: absolute;
+  top:75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.wrapper i{
+  font-size: 43px;
+  position: absolute;
+  top:36%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
